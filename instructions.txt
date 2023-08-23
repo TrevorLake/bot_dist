@@ -1,0 +1,28 @@
+1. Install Python, if you have not
+    - https://www.python.org/downloads/
+
+2. Install dependencies, if you have not
+    - Hit window key and open up command prompt
+    - Run:
+        pip install pyautogui
+        pip install opencv-python
+
+3. Set config file (config.json)
+    - as of 8/21/2023 the only implemented items are: 
+        - Pox
+        - Adrenaline
+
+4. In game:
+    - Filter by the item and set the max price
+    - Make sure you select 'Remember selected filter'
+    - Leave at least 1 row open at the top of stash. 3 or 4 if possible.
+        - If you are running out of space before rubles, this isn't necessary
+
+5. Double click the 'run_bot.py' file to run the bot 
+    - The file explorer needs to not be full screen
+        - The 'TRADER' and 'FLEA MARKET' buttons need to be visable
+    - Double click the 'sell.py' file to sell without running bot
+
+6. Don't fuck around with the code. Timers are the way they are
+    for a reason, and I have been temperarily banned from the flea once
+    for making it too fast. I can help add more items just lmk.
