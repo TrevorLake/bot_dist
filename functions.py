@@ -17,9 +17,9 @@ def refresh():
     flealoc = (1247, 1064)
     traderloc = (1108, 1064)
     click(traderloc)
-    time.sleep(0.05)
+    time.sleep(0.2)
     click(flealoc)
-    time.sleep(0.25)
+    time.sleep(0.4)
 
 
 def purchase(xy):
